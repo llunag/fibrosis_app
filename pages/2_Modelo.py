@@ -11,8 +11,8 @@ import joblib
 from sklearn.metrics import accuracy_score, recall_score, precision_score, f1_score, roc_auc_score, confusion_matrix, roc_curve
 
 # Configuración de la página
-st.set_page_config(page_title="EDA Fibrosis",
-                   page_icon="📊",
+st.set_page_config(page_title="Fibrosis",
+                   page_icon="🩺",
                    layout="wide")
 
 # Título

@@ -9,8 +9,8 @@ import plotly.graph_objects as go
 import scipy.stats as stats
 
 # Configuración de la página
-st.set_page_config(page_title="EDA Fibrosis",
-                   page_icon="📊",
+st.set_page_config(page_title="Fibrosis",
+                   page_icon="🩺",
                    layout="wide")
 
 # Título
