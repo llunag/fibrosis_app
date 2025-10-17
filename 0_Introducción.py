@@ -6,13 +6,13 @@ import seaborn as sns
 import plotly.graph_objects as go
 
 # Configuración de la página
-st.set_page_config(page_title="EDA Fibrosis",
-                   page_icon="📊",
+st.set_page_config(page_title="Fibrosis",
+                   page_icon="🩺",
                    layout="wide")
 
 
 # Título y descripción
-st.title("Desarrollo de un modelo de regresión logística para ayudar en el diagnostico de fibrosis hepática")
+st.title("Desarrollo de un modelo de regresión logística para la predicción de fibrosis hepática")
 
 st.subheader("Introducción")
 st.markdown("""
