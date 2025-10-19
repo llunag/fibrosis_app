@@ -115,7 +115,7 @@ st.markdown("""
     <div style="text-align: justify;">
     De acuerdo con la métrica de Exactitud del modelo, se obtiene que el modelo clasifica de manera correcta un 71.9% de las observaciones. Según la 
     sensibilidad, el modelo tiene una probabilidad del 72.2% de predecir correctamente a los pacientes con fibrosis. De acuerdo con la especificidad,
-    el modelo predice a los pacientes con presencia de fibrosis correctamente un 71.4% de las veces.
+    el modelo predice a los pacientes con ausencia de fibrosis correctamente un 71.4% de las veces.
     </div>
     """, unsafe_allow_html=True)
 st.dataframe(metricas, use_container_width=False)
